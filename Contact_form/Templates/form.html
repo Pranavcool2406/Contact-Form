@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobha Consultancy Services - Contact Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Shobha Consultancy Services</h1>
+        <p class="text-center">Please fill in the form below:</p>
+        <form action="/" method="POST" enctype="multipart/form-data" class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" name="phone" id="phone" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <textarea name="address" id="address" class="form-control" rows="2" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="details" class="form-label">Details</label>
+                <textarea name="details" id="details" class="form-control" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="aadhar" class="form-label">Upload Aadhar Card</label>
+                <input type="file" name="aadhar" id="aadhar" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="pan" class="form-label">Upload PAN Card</label>
+                <input type="file" name="pan" id="pan" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="bank_statement" class="form-label">Upload 3-Month Bank Statement</label>
+                <input type="file" name="bank_statement" id="bank_statement" class="form-control" required>
+            </div>
+            <p class="text-muted">* Aadhar and PAN will be linked with the entered phone number.</p>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+    
